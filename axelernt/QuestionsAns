@@ -1,0 +1,26 @@
+Why did you get into DevOps? *
+As devops is a methodology that minimize the dependency of both development and operations teams. It adds value to end to end product or service implementation and delivery.
+
+
+How do you become familiar with a business' information technology standards and, in turn, promote reuse across an organization? *
+When it comes to deal with Clients' Data, Security best practices and privacy policies a good understanding of Business IT standards is important. To re-utilize those standards it is needed to create a skeleton that can be a good fit for almost business use-cases.
+
+
+How have you created automation for continuous integration, continuous delivery, and continuous deployment (CI/CD) operations? *
+I have utilized Jenkins and ansible to accomplish it. Jenkins is used as CI and continuous delivery tool and Ansible for continuous deployment. Declarative pipeline was used.
+
+What difficulties have you encountered, and how did you overcome them in support of cloud, container, and on-premise CI/CD platforms? *
+For Cloud: Mananging users on-boarding was difficult using terraform so I have separated the code for infra creation and then IP addition was taken care manually.
+For containers: Creating images for end to end deployment of big data components were difficult as official images were not available so half done was taken care in Dockerfile and rest is deployed by calling ansible scripts with docker container.
+For on-prem CI/CD: It was difficult to deploy native application on top of docker based Hadoop cluster running on on-prem machines as no any plugins available. So automation is done using scripts and variable is called through the Jenkins to accomplish the use cases.
+
+
+What are three of your learnings in developing a strategy or reviewing to design and implement with business partners? *
+1. All the requirement and communication should be well documented to avoid any miscommunication.
+2. Budget and support cost should be clear so that when it comes to decision making for technology stack, things would be clear
+3. Amount of traffic is the key that may fail the entire implantation if not properly communicated and taken care so a clear real-time picture is necessary
+
+What do SLA, SLO, and SLI mean, and how do they apply to DevOps and site reliability? *
+Service-Level Agreement (SLA): An SLA is an agreement between a vendor/service provider and the customer for responsiveness, responsibilities or commitment to client using service's availability.
+Service-Level Objective (SLO): SLOs are the individual commitments that vendor makes to the customer and it lies within an SLA about a specific metric of SLA.
+3. Service-Level Indicator (SLI): It is a direct measurement of a service’s behavior, fundamentally it measures compliance with an SLO itself.
